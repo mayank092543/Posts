@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ribeye Marrow', cursive;
+    height: 100vh;
+}
+
+.btn {
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    appearance: button;
+}
+
+.btn-block {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-left: auto;
+    width: 50%;
+    font-size: 20px;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.createPost-btn {
+    text-align: center;
+}
+
+.editPost-title {
+    text-align: center;
+    margin-left: 600px;
+    color: navy
+}
+
+.error-message {
+    color: red;
+    margin: 15px 15px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 20px;
+
+}
+
+.header-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header-li-login,
+.header-li-logout
+{
+   padding: 20px;
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.header-li-register {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 320px;
+    width: 50%;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.form-group-createPost input {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 500px;
+    margin-bottom: 35px;
+    width: 50%;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logout-message {
+    text-align: center;
+    font-size: 65px;
+    margin-top: 250px;
+}
+
+.option-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-yourself {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.tag-info {
+    margin: 20px;
+}
+
+.topic {
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.posts {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+
+.post-page,
+.createPost-page,
+.editPost-page,
+.users-page,
+.tag-page
+{
+    display: flex;
+    align-items: center;
+}
+
+.post-title,
+.users-title,
+.tag-title
+{
+    text-align: center;
+    margin: 0 700px;
+    color: green;
+}
+
+.createPost-title {
+    text-align: center;
+    margin-left: 600px;
+    color: red;
+}
+
+.search-bar {
+    text-align: center; 
+}
+
+.searchForm-group input {
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 85px;
+    height: 50px;
+    font-family: inherit;
+    font-size: large;
+    font-weight: bold;
+}
+
+.search-bar-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.search-input-field input {
+    height: 65px;
+    padding: 25px;  
+}
+
+.user-list {
+    margin: 35px 15px;
+}

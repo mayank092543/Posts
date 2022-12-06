@@ -1,0 +1,25 @@
+{
+  "name": "pgsql",
+  "version": "1.0.0",
+  "description": "Learning PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "db": "node backend/database/init_db.js",
+    "server:db": "nodemon backend/database/init_db.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run server:db\" \"npm run client\" "
+  },
+  "author": "Mayank Awasthi",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  }
+}
